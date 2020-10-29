@@ -47,3 +47,5 @@ with open(input_file, 'rb') as open_file:
 
 print("The {} Hash Value of the content is: {}".format(
     hash_alg, file_content.hexdigest()))
+
+###Special Thanks to The Python Digital Forensics CookBook By Preston Miller and Chapin Bryce for the code examples###
