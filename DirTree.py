@@ -20,7 +20,7 @@ for root, directories, files in os.walk(path_to_scan):
 
 
 # create a for loop to 
-# terate over the files in the current "root"
+# iterate over the files in the current "root"
     for file_entry in files:
         # create the relative path to the file
         file_path = os.path.join(root, file_entry)
